@@ -3,7 +3,7 @@
 Feralhosting可用。  
 
 最简单安装方法:  
-```wget https://raw.githubusercontent.com/wyjok/FH/master/qb11.sh```  
+```wget https://raw.githubusercontent.com/ptfancier/FH/master/qb11.sh```  
 ```bash qb11.sh```  
 输入``` y```同意免责条款  
   
