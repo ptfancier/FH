@@ -178,7 +178,7 @@ do
             else
                 echo
                 echo "Failing to start up deluge:"
-                 /bin/bash -c 'export LD_LIBRARY_PATH=~/lib:/usr/lib;export PYTHONPATH=~/lib/python2.7/dist-packages/; export PATH=~/bin;   deluge-web '
+                 /bin/bash -c 'export LD_LIBRARY_PATH=~/lib:/usr/lib;export PYTHONPATH=~/lib/python2.7/dist-packages/; export PATH:$PATH=~/bin;   deluge-web '
             fi
             ;;
         "3") # uninstall
